@@ -1,0 +1,667 @@
+#top{
+    width:100%;
+    height:56px;
+    background:#ffd100;
+    display: block;
+}
+#top .topnav {
+        height: 56px;
+        width:1123px;
+        position:relative;
+        margin: 0 auto;
+}
+.topnav .logo {
+    width:120px;
+    height:25px;
+    position: absolute;
+    top: 18px;
+    left: 0;
+}
+.topnav .menu{
+    width:1123px;
+    height:56px;
+}
+.menubox{
+    width:1123px;
+    height:61px;
+    text-align: center;
+
+}
+.menubox ul{
+    height: 56px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.menubox ul li{
+    float: left;
+    cursor: pointer;
+    height: 56px;
+    line-height: 56px;
+    text-align: left;
+    padding: 0 24px;
+}
+.menubox ul .current{
+    font-weight: 600;
+}
+.menubox .moremenu {
+    float: left;
+    cursor: pointer;
+    height: 56px;
+    line-height: 56px;
+    text-align: left;
+    position: relative;
+}
+.subnav-dot-sup {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 0 2px 3px;
+    position: absolute;
+    top: 20px;
+    right:9px;
+}
+/*这段代码目前没有意义*/
+.nubox .moremenu  a{
+    width: 152px;
+    padding: 6px 0;
+    position: absolute;
+    background: #fff;
+    top: 56px;
+}
+.menubox .moremenu i{
+    display: inline-block;
+    background-image: url(../images/nav-more.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 20px;
+    height: 56px;
+}
+.topsearch{
+    position: absolute;
+    top: 0;
+    right: 192px;
+    width: 60px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+.topsearch i{
+    display: inline-block;
+    background: url(../images/nav-search.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+}
+.usecenter{
+    width: 192px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.usercenter .useupload{
+    height: 20px;
+    width:56px;
+}
+.useupload a{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    padding: 18px 20px;
+    float:left;
+}
+.useupload i{
+    background: url(../images/nav-upload.svg) no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+.unlogin{
+    width:117px;
+    height:60px;
+    float:right;
+}
+.unlogin li{
+    float: left;
+    cursor: pointer;
+    line-height: 60px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.unlogin li a{
+    width：117px;
+    height：60px;
+    display: inline-block;
+
+}
+.unlogin li i{
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background: #444;
+
+}
+.unlogin li .nomar{
+    width：117px;
+    height：60px;
+    display: inline-block;
+    margin-left:20px;
+}
+
+/*---banner---*/
+#banner{
+    width:100%;
+    height:3807px;
+}
+.slider-box{
+    width:1263px;
+    height:490px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.slider img{
+    max-width: 1130px;
+    height: 300px;
+    margin: 0 auto;
+}
+.clearbox{
+    clear:both;
+    height:20px;
+}
+/*---广告位---*/
+.advtop{
+    max-width: 1130px;
+    height:170px;
+    margin: 0px auto;
+    background:#255 255 255;
+    overfl:hidden;
+}
+.advtop ul{
+    max-width:1130px;
+    height:170px;
+    position: relative;
+}
+#testac1{
+    float: left;
+    height:170px;
+    margin-right: 20px;
+    width: 210px;
+    position: relative;
+}
+#testac1 img{
+    width: 210px!important;
+    height: 168px!important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#testac2{
+    float: left;
+    height:170px;
+    margin-right: 20px;
+    width: 210px;
+    position: relative;
+}
+#testac2 img{
+    width: 210px!important;
+    height: 168px!important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#testac3{
+    float: left;
+    height:170px;
+    margin-right: 20px;
+    width: 210px;
+    position: relative;
+}
+#testac3 img{
+    width: 210px!important;
+    height: 168px!important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#testac4{
+    float: left;
+    height:170px;
+    margin-right: 20px;
+    width: 210px;
+    position: relative;
+}
+#testac4 img{
+    width: 210px!important;
+    height: 168px!important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#testac5{
+    float: left;
+    height:170px;
+    width: 210px;
+    position: relative;
+}
+#testac5 img{
+    width: 210px!important;
+    height: 168px!important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+/*---广告位---*//*---广告位---*//*---广告位---*//*---广告位---*/
+/*---业内导航---*//*---业内导航---*//*---业内导航---*//*---业内导航---*/
+.subnav{
+    width: 100%;
+    height: 56px;
+}
+.subnavmiddle{
+    width:1130px;
+    height:56px;
+    margin:0 auto;
+    position: relative;
+}
+.subnav ul{
+    width:1130px;
+    height:56px;
+    margin:0 auto;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.subnav ul .subnav1{
+    width:64px;
+    height:54px;
+    padding: 0 30px;
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #999;
+    zoom: 1;
+    position: relative;
+}
+.subnav ul a{
+    color: #282828;
+    border-bottom: 2px solid #444;
+    padding: 19px 0;
+    display: block;
+    text-align: center;
+}
+.subnav ul .subnav2{
+    width:64px;
+    height:54px;
+    padding: 0 30px;
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #999;
+    zoom: 1;
+    position: relative;
+}
+.subnav ul .subnav3{
+    width:64px;
+    height:54px;
+    padding: 0 30px;
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #999;
+    zoom: 1;
+    position: relative;
+}
+.subnavpic{
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.subnavpic img{
+    width:150px;
+    height:55px;
+}
+/*---页面主体---*//*---页面主体---*//*---页面主体---*//*---页面主体---*/
+.allworklist{
+    width:100%;
+    height:2624px;
+    background:#999;
+}
+.worklistbox{
+    width:1150px;
+    height:2624px;
+    margin:0 auto;
+    padding-left:10px;
+
+}
+.cardbox{
+    width:210px;
+    height:308px;
+    float: left;
+    position: relative;
+    background: #fff;
+    margin: 0 20px 20px 0;
+}
+.cardimg img{
+    width: 210px;
+    height: 158px;
+    display:block;
+}
+.cardinfo{
+    border-bottom: 1px solid #eee;
+    padding: 11px 16px 13px;
+    height: 75px;
+    position: relative;
+}
+.cardtitle{
+    margin-bottom: 1px;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.cardtitle a{
+font-size: 14px;
+color: #333;
+}
+.cardtype{
+    font-size: 12px;
+    color: #bbb;
+    margin-bottom: 17px;
+    height: 18px;
+}
+.carditem{
+    font-size: 12px;
+    color: #bbb;
+    position: absolute;
+    bottom: 14px;
+}
+.carditem .cardview{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+    vertical-align: top;
+    margin-right: 5px;
+    background: url(../images/eyes.svg) 0 4px no-repeat;
+    background-size: 16px auto;
+    float：right;
+}
+.carditem .cardcomment{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+    vertical-align: top;
+    margin-right: 5px;
+    background: url(../images/maopao.svg) 0 2px no-repeat;
+    background-size: 16px auto;
+    float:right;
+}
+.carditem .tuijian{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+    vertical-align: top;
+    margin-right: 5px;
+    background: url(../images/zan.svg) 0 2px no-repeat;
+    background-size: 16px auto;
+    float:right;
+}
+.cardtime{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 16px;
+    font-size: 12px;
+    position: relative;
+}
+.timeleft{
+    color:#282828;
+    float:left;
+}
+.timeright{
+    color:#999;
+    float:right;
+}
+.pagerunning{
+    width:1383px;
+    height:40px;
+    margin-top:40px;
+    clear:both;
+}
+.laypage{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    color: #666;
+}
+.laypage a{
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 3px;
+    color: #999;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+.laypage .laypagecur{
+    font-weight: 400;
+    color: #333;
+    background: #ffd100;
+    border: 1px solid #ffd100;
+    border-radius: 4px;
+}
+.laypage span{
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 3px;
+    color: #999;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    text-align: center
+
+}
+.advbottom{
+    margin: 30px auto 0;
+    height:100px;
+}
+.advbottom a{
+    height:100px;
+    text-decoration: none;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+    background: white;
+}
+.advbottom img{
+    width: 1130px!important;
+    height: 100px!important;
+    border-radius: 4px;
+    margin:0 auto;
+}
+.workpure{
+    width:1130px;
+    height:342px;
+    margin:0 auto;  
+}
+.workpure p{
+    min-height: 14px;
+    line-height: 14px;
+    margin: 20px 0;
+    color: #666;
+    position: relative;
+}
+.workpure span{
+    width:42px;
+    height:14px;
+    float:right;
+    color: #d36f16;
+    cursor: pointer;
+    font-size:14px;
+}
+.hotbox{
+    width:1150px;
+    height:328px;
+    margin:0 auto;
+
+}
+.hotbox .cardtime{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 16px;
+    font-size: 12px;
+    position: relative;
+}
+.hotbox .timeleft{
+    color:#282828;
+    float:left;
+    width:100px;
+}
+.backtotop{
+    height:168px;
+    width: 50px;
+    position: fixed;
+    left: 50%;
+    z-index: 10;
+    margin-left: 575px;
+    display: block;
+    bottom: 263.333px;
+}
+.backtotop a{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-bottom: 6px;
+    vertical-align: middle;
+    background:#ddd;
+}
+.backtotop span{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    padding: 6px 5px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 6px;
+    color: #444;
+    background: #ffd100;
+    border: 1px solid #ffd100
+}
+.backtotop .replay1{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    padding: 6px 5px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 6px;
+    color: #444;
+    background: #ffd100;
+    border: 1px solid #ffd100
+}
+.fooot{
+    width: 100%;
+    height: 229px;
+    background: #282828;
+    position:relative;
+    bottom: 0;
+    color: #666;
+}
+.foot-wrapper{
+    height: 100%;
+    width:1130px;
+    margin: 0 auto;
+    background: #282828;
+    position: relative;
+}
+.foot-wrapper-top{
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    border-bottom: 1px solid #333;
+}
+.foot-wrapper-top-left{
+    float: left;
+    width:950;
+    height:130px;
+}
+.foot-wrapper-top-left a{
+    
+    margin-right: 38px;
+    color: inherit;
+    outline: 0;
+    line-height: 130px;
+}
+.foot-wrapper-top-right{
+    float: right;
+    line-height: 130px;
+    width:135px;
+    height:130px;
+.weixin{
+    width: 25px;
+    height: 21px;
+    position: relative;
+    background: url(../images/weixin.jpg) no-repeat 40px -40px;
+    display: inline-block;
+    margin-left: 40px;
+    color: inherit;
+    outline: 0;
+    line-height: 130px;
+}
+.weibo{
+    width: 26px;
+    height: 26px;
+    background: url(../images/weibo.png) no-repeat;
+    text-decoration: none;
+    line-height: 130px;
+    display: inline-block;
+}
+.footer-wrapper-bottom{
+    margin-top: 20px;
+    position: absolute;
+    width:1130px;
+    height:21px;
+    background:yellow;
+
+}
+.footer-wrapper-bottom a{
+    font-size: 12px;
+    color: #282828;
+    outline: 0;
+    text-decoration: none;
+}
+.footer-wrapper-bottom span{
+    font-size: 12px;
+    color: #282828;
+    outline: 0;
+    text-decoration: none;  
+}

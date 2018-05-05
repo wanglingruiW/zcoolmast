@@ -1,0 +1,124 @@
+
+html, body, div, span, input, button, figure, i, h1, h2, h3, h4, h5, h6, em, img, strong, sub, sup, tt, dd, dl, dt, form, label, table, caption, tbody, tfoot, thead, tr, th, td, ul, ol, li, p, a {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font: 14px/1.5 "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+body {
+    font-family: "PingFang SC","Lantinghei SC","Microsoft YaHei","HanHei SC","Helvetica Neue","Open Sans",Arial,"Hiragino Sans GB","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.pass-main-body {
+    width: 100%;
+    min-height: 100%;
+    min-width: 900px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background:url(../images/login-ground.jpg) no-repeat;
+
+}
+pass-header-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.login-passcard-nav {
+    padding-top: 30px;
+    color: #ffffff;
+    line-height: 24px;
+    font-size: 24px;
+}
+.login-passcard-nav .login-zcool-logo {
+    width: 137px;
+    height: 24px;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+    background: url(../images/svg/zcool_logo.svg) no-repeat;
+    background-size: auto 24px;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+.login-logo {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.login-div-box {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    overflow: hidden;
+    background:white;
+    z-index:5;
+}
+.login-imgsource {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.login-footer {
+    margin-top: 32px;
+}
+.login-footer p:first-child {
+    margin-bottom: 8px;
+}
+.footer p {
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.login-footer p {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.login-head{
+    width:380px;
+    height:80px;
+    border-bottom:2px solid #999999;
+    margin:0 auto;
+    font-size:24px;
+    text-align: left;
+    line-height: 80px;
+}
+input{
+    margin-top: 50px;
+    width:360px;
+    height:60px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    font-size:30px;
+}
+button{
+    width:360px;
+    height:60px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    font-size:30px;
+}
